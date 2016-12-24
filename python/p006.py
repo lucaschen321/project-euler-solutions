@@ -1,5 +1,5 @@
 #
-# Solution to Project Euler problem 6
+# Solution to Project Euler Problem 6
 # by Lucas Chen
 #
 # Answer: 25164150

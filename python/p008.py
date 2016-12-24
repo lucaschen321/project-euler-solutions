@@ -2,7 +2,7 @@
 # Solution to Project Euler Problem 8
 # by Lucas Chen
 #
-# Answer: 104743
+# Answer: 23514624000
 #
 
 DIGITS = 13

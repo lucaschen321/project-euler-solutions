@@ -1,5 +1,5 @@
 #
-# Solution to Project Euler problem 5
+# Solution to Project Euler Problem 5
 # by Lucas Chen
 #
 # Answer: 232792560

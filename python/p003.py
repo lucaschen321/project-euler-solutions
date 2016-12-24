@@ -1,5 +1,5 @@
 #
-# Solution to Project Euler problem 3
+# Solution to Project Euler Problem 3
 # by Lucas Chen
 #
 # Answer: 6857

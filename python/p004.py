@@ -1,5 +1,5 @@
 #
-# Solution to Project Euler problem 4
+# Solution to Project Euler Problem 4
 # by Lucas Chen
 #
 # Answer: 906609

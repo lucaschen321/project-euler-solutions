@@ -1,5 +1,5 @@
 #
-# Solution to Project Euler problem 7
+# Solution to Project Euler Problem 7
 # by Lucas Chen
 #
 # Answer: 104743
