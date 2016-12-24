@@ -8,21 +8,23 @@
 import math
 import eulerlib
 
-# Algorithm divides out the lowest prime after each pass, and returns the 
-# result if it is prime.
+NUM = 600851475143
+
+# Computes the largest prime that is a factor of [NUM]. Algorithm returns the
+# result if it is prime. Otherwise, divides out the lowest prime after each pass
 def compute():
-    ans = 600851475143
+    ans = NUM
     for i in eulerlib.list_primes((int)(math.sqrt(ans))):
         if eulerlib.is_prime(ans):
             return ans
         while ans % i == 0 and ans != i:
            ans //= i
 
-# Alternate solution by computing prime factorization, and finding the maximum
+# Alternate solution: Computes prime factorization, and finding the maximum
 # prime factor
 '''
 def compute():
-    ans = 600851475143
+    ans = NUM
     i = 2
     factors = []  # List of the prime factors for ans
     while i <= ans:
