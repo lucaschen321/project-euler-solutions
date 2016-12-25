@@ -8,12 +8,14 @@
 import fractions
 import eulerlib
 
-NUM = 20   # The largest integer, for which the answer is evenly divsiible all
-           # naturals less than [NUM]
+# The largest integer, for which the answer is evenly divsiible by all
+# naturals less than [NUM]
+NUM = 20
+
 
 # Using a loop, performs a fold with multiplication as the operator on naturals
-# up to and including [NUM]. The greatest common divisor between the accumulator
-# and the element of interest is divided out.
+# up to and including [NUM]. The greatest common divisor between the
+# accumulator and the element of interest is divided out.
 def compute():
     ans = 1
     for x in range(1, NUM + 1):
@@ -21,10 +23,10 @@ def compute():
             ans *= x // fractions.gcd(x, ans)
     return ans
 
-# Alternate solution: Returns the list of primes less than or including [NUM]. 
-# For each prime, the largest power of the prime less than or equal to [NUM] is 
+# Alternate solution: Returns the list of primes less than or including [NUM].
+# For each prime, the largest power of the prime less than or equal to [NUM] is
 # computed. The resulting powers are multiplied to give the answer.
-''' 
+'''
 def compute():
     ans = 1
     for x in eulerlib.list_primes(NUM):

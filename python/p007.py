@@ -9,6 +9,7 @@ import eulerlib
 
 NUM = 10001
 
+
 # Compute the first [NUM] primes,storing them in a list, and returns the
 # [NUM]th prime
 def compute():

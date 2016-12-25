@@ -3,9 +3,8 @@
 # by Lucas Chen
 #
 
-import math
 
-# Given integer n return whether n is prime. 
+# Given integer n return whether n is prime.
 # Source: https://en.wikipedia.org/wiki/Primality_test#Simple_methods
 def is_prime(n):
     if n <= 1:
@@ -21,6 +20,7 @@ def is_prime(n):
                 return False
             i += 6
         return True
+
 
 # Given integer n, list the primes <= n.
 def list_primes(n):

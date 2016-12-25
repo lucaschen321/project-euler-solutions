@@ -7,9 +7,10 @@
 
 NUM = 1000
 
-# A Pythagorean triplet is defined as a set of natural numbers a < b < c such 
+
+# A Pythagorean triplet is defined as a set of natural numbers a < b < c such
 # that a^2 + b^2 = c^2. Finds a Pythogorean triplet such that a + b + c = [NUM]
-# and returns product abc, and -1 if a triplet is not found. Fewer numbers 
+# and returns product abc, and -1 if a triplet is not found. Fewer numbers
 # checked by looping such that a < b < c.
 def compute():
     for c in range(NUM):

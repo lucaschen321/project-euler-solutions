@@ -5,6 +5,7 @@
 # Answer: 906609
 #
 
+
 # Computes the largest palindrome that is a product of two 3-digit numbers
 def compute():
     ans = 0
