@@ -17,7 +17,7 @@ def compute():
     # Convert grid input of strings into matrix of ints
     grid = [int(i) for i in GRID_INPUT.split()]
     grid = [grid[i:i+DIM] for i in range(0, len(grid), DIM)]
-    ans = 0
+    ans = -1
 
     # Check horizontal products
     horz_product = direction_max(grid, 'horizontal')
