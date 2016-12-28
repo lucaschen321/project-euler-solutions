@@ -2,7 +2,7 @@
 # Solution to Project Euler Problem 11
 # by Lucas Chen
 #
-# Answer: 142913828922
+# Answer: 70600674
 #
 
 ADJ = 4      # [ADJ]
