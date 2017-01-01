@@ -3,6 +3,8 @@
 # by Lucas Chen
 #
 
+import math
+
 
 # Given integer n return whether n is prime.
 # Source: https://en.wikipedia.org/wiki/Primality_test#Simple_methods
@@ -25,3 +27,8 @@ def is_prime(n):
 # Given integer n, list the primes <= n.
 def list_primes(n):
     return [i for i in range(1, n + 1) if is_prime(i)]
+
+
+# Given integers n, k, compute the binomial coefficient, n choose k
+def binomial(n, k):
+    return math.factorial(n) // (math.factorial(k) * math.factorial(n - k))
