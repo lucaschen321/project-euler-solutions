@@ -39,5 +39,6 @@ def compute():
             str_ans += num_to_word[i]
     return len(str_ans)
 
+
 if __name__ == "__main__":
     print(compute())
